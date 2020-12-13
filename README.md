@@ -1,2 +1,2 @@
 # wabbit-hole
-first steps in webassambly
+first steps in webassembly
