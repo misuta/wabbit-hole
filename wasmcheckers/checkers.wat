@@ -22,12 +22,7 @@
 		)
 
 	)
-;;(export "getPiece" (func $getPiece))
-;;(export "isCrowned" (func $isCrowned))
-;;(export "initBoard" (func $initBoard))
-;;(export "getTurnOwner" (func $getTurnOwner))
-;;(export "move" (func $move))
-;;(export "memory" (memory $mem))
+
 (func $offsetForPosition (param $x i32) (param $y i32) (result i32)
 	(i32.mul
 		(call $indexForPartition (get_local $x) (get_local $y))
